@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Princesa Karencita 💛👑</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hearts-bg"></div>
+    <div class="container">
+        <header>
+            <h1>Para Mi Amor y Princesa Karencita 💛👑🌞</h1>
+            <p class="subtitle">Una dedicatoria especial para mi princesa hermosa</p>
+        </header>
+        <section class="thoughts">
+            <h2>Mis pensamientos sobre ti</h2>
+            <div class="fixed-text">
+                <p>Desde que te conocí, mi vida se llenó de colores y alegría. Cada día contigo es una nueva aventura, y tu sonrisa ilumina incluso los momentos más difíciles. Admiro tu bondad, tu fuerza y la forma en que haces que todo a tu alrededor sea especial.</p>
+                <p>Me inspiras a ser mejor y me haces sentir amado de una manera única. Gracias por ser tú, por tu paciencia, por tu amor y por tu honestidad 💕.</p>
+            </div>
+            <div class="img-gallery" style="justify-content: center; margin-top: 18px;">
+                <img src="img/pensamiento.jpg" alt="Mi amada princesa" style="max-width:220px; border-radius:18px; box-shadow:0 2px 12px #ffb6d5;">
+            </div>
+        </section>
+        <section class="first-day">
+            <h2>El día y semana que nos conocimos ✨</h2>
+            <div class="fixed-text">
+                <p>Recuerdo perfectamente ese día y esa semana especial en que nuestras vidas se cruzaron por primera vez. Sentí una conexión única y desde ese momento supe que algo hermoso estaba por comenzar. Cada detalle de ese día está guardado en mi corazón, y me alegra haberlo compartido contigo.</p>
+            </div>
+            <div class="img-gallery first-day-gallery">
+                <img src="img/primer-dia1.jpg" alt="Primer día juntos 1">
+                <img src="img/primer-dia2.jpg" alt="Primer día juntos 2">
+                <img src="img/primer-dia3.jpg" alt="Primer día juntos 3">
+                <img src="img/primer-dia4.jpg" alt="Primer día juntos 4">
+                <img src="img/primer-dia5.jpg" alt="Primer día juntos 5">
+                <img src="img/primer-dia6.jpg" alt="Primer día juntos 6">
+            </div>
+        </section>
+        <section class="images">
+            <h2>Nuestras aventuras y recuerdos 💕</h2>
+            <div class="img-gallery">
+                <img src="img/recuerdo1.jpg" alt="Recuerdo 1">
+                <img src="img/recuerdo2.jpg" alt="Recuerdo 2">
+                <img src="img/recuerdo3.jpg" alt="Recuerdo 3">
+                <img src="img/recuerdo4.jpg" alt="Recuerdo 4">
+                <img src="img/recuerdo5.jpg" alt="Recuerdo 5">
+                <img src="img/recuerdo6.jpg" alt="Recuerdo 6">
+                <img src="img/recuerdo7.jpg" alt="Recuerdo 7">
+                <img src="img/recuerdo8.jpg" alt="Recuerdo 8">
+                <img src="img/recuerdo9.jpg" alt="Recuerdo 9">
+                <img src="img/recuerdo10.jpg" alt="Recuerdo 10">
+            </div>
+        </section>
+        <section class="dedication">
+            <h2>Dedicatoria final</h2>
+            <div class="fixed-text">
+                <p>Te amo más de lo que las palabras pueden expresar. Esta detallito es solo un pequeño reflejo de todo lo que siento por ti. Gracias por ser mi compañera, mi amiga y mi gran amor. Siempre tuyo.</p>
+            </div>
+        </section>
+        <footer>
+            <p>Hecho con mucho amor por tu amado y querido Gael, prometo nunca fallarte, estar en las buenas en las malas, abrazarte el tiempo necesario hasta que se te pase la amargura, enferntar al mundo juntos, salir adelantes tanto en las buenas como en las malas, te amoo mucho mi princesa 💖</p>
+        </footer>
+    </div>
+    <button id="playMusic" style="position:fixed;top:18px;right:18px;z-index:999;background:#e75480;border:none;padding:12px 16px;border-radius:50%;box-shadow:0 2px 8px #ffb6d5;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform 0.2s;">
+      <span style="font-size:2em;color:#fff;">&#10084;&#65039;</span>
+    </button>
+    <audio id="bgMusic" src="cancion.mp3" loop></audio>
+    <script>
+      document.getElementById('playMusic').onclick = function() {
+        var audio = document.getElementById('bgMusic');
+        audio.play();
+        this.style.display = 'none';
+      };
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
